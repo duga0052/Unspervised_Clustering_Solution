@@ -1,0 +1,49 @@
+Log file created.
+2024-08-06 22:04:04,805 - INFO - Loading data...
+2024-08-06 22:04:04,831 - INFO - Displaying the first few rows of the dataframe:
+2024-08-06 22:04:04,841 - INFO - Displaying dataframe information:
+2024-08-06 22:04:04,854 - INFO - Plotting pairplot...
+2024-08-06 22:04:11,012 - INFO - Training KMeans model...
+2024-08-06 22:04:11,258 - INFO - Plotting clusters...
+2024-08-06 22:04:12,431 - INFO - Calculating WCSS and plotting elbow plot...
+2024-08-06 22:04:12,493 - INFO - WCSS scores:
+   cluster      WSS_Score
+0        3  106348.373062
+1        4   73880.644962
+2        5   44448.455448
+3        6   37271.886237
+4        7   34888.343473
+5        8   25063.652516
+2024-08-06 22:04:13,273 - INFO - Calculating silhouette scores and plotting silhouette plot...
+2024-08-06 22:04:13,363 - INFO - Silhouette scores:
+   cluster  Silhouette_Score
+0        3          0.467614
+1        4          0.493795gi
+2        5          0.553932
+3        6          0.537581
+4        7          0.458099
+5        8          0.438490
+2024-08-06 23:54:27,626 - INFO - Loading data...
+2024-08-06 23:54:27,660 - INFO - Displaying the first few rows of the dataframe:
+2024-08-06 23:54:27,705 - INFO - Displaying dataframe information:
+2024-08-06 23:54:27,718 - INFO - Plotting pairplot...
+2024-08-06 23:54:52,858 - INFO - Training KMeans model...
+2024-08-06 23:54:53,129 - INFO - Plotting clusters...
+2024-08-06 23:54:54,387 - INFO - Calculating WCSS and plotting elbow plot...
+2024-08-06 23:54:54,479 - INFO - WCSS scores:
+   cluster      WSS_Score
+0        3  106348.373062
+1        4   73880.644962
+2        5   44448.455448
+3        6   38858.959975
+4        7   30552.714025
+5        8   26127.946449
+2024-08-06 23:54:55,521 - INFO - Calculating silhouette scores and plotting silhouette plot...
+2024-08-06 23:54:55,634 - INFO - Silhouette scores:
+   cluster  Silhouette_Score
+0        3          0.467614
+1        4          0.493196
+2        5          0.553932
+3        6          0.508253
+4        7          0.526428
+5        8          0.457591

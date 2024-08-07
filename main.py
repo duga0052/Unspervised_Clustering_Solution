@@ -6,6 +6,18 @@ from src.data.data_loader import load_data
 from src.visualization.visualization import plot_pairplot, plot_clusters, plot_elbow, plot_silhouette
 from src.model.clustering import train_kmeans, calculate_wcss, calculate_silhouette
 
+# Ensure the log file exists
+log_file_exists = os.path.exists('app.log')
+if not log_file_exists:
+    with open('app.log', 'w') as f:
+        f.write('Log file created.\n')
+
+# Configure logging
+def setup_logging():
+    logging.basicConfig(level=logging.INFO, filename='app.log', filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+setup_logging()
+
 # Set the environment variable to avoid memory leak issue with KMeans on Windows
 os.environ['OMP_NUM_THREADS'] = '1'
 
